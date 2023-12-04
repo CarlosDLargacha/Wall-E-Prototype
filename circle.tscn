@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://dud5h6ful7vha"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+amount = 10000
+lifetime = 600.0
+speed_scale = 50.0
+local_coords = true
+emission_shape = 5
+emission_points = PackedVector2Array(100, 0)
+emission_normals = PackedVector2Array()
+emission_colors = PackedColorArray()
+gravity = Vector2(0, 0)
+angular_velocity_min = 1e+07
+angular_velocity_max = 1e+07
+orbit_velocity_min = -0.01
+orbit_velocity_max = 0.01
+scale_amount_min = 1.5
+scale_amount_max = 1.5

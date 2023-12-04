@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://4c0sbx3vwdwr"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1600.0
+offset_bottom = 904.0
+
+[node name="GraphEdit" type="GraphEdit" parent="Control"]
+offset_left = -1.0
+offset_right = 1598.0
+offset_bottom = 915.0
+scroll_offset = Vector2(-725, -246)

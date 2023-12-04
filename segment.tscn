@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bugh7fa25kcgg"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(230, 169)
+
+[node name="GraphEdit" type="GraphEdit" parent="."]
+offset_right = 1276.0
+offset_bottom = 744.0
+scroll_offset = Vector2(-40, -40)
